@@ -5,8 +5,7 @@ const navItems = [
   { href: "#technology", label: "Technology" },
   { href: "#products", label: "Products" },
   { href: "#pipeline", label: "Pipeline" },
-  { href: "#metrics", label: "Metrics" },
-  { href: "#contact", label: "Contact" }
+  { href: "#metrics", label: "Metrics" }
 ];
 
 export function Navbar() {
