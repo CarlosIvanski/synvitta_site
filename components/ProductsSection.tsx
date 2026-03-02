@@ -18,7 +18,7 @@ const pipelineItems = [
 export function ProductsSection() {
   return (
     <FadeInSection delay={0.1}>
-      <section id="products" className="section-max-width space-y-16 py-20">
+      <section id="products" className="section-max-width min-h-screen space-y-16 py-24">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] lg:items-start">
           <div className="space-y-6">
             <div className="pill">SynTREP™ · Rapid Syphilis ELISA</div>
@@ -135,7 +135,7 @@ export function ProductsSection() {
         <FadeInSection delay={0.15}>
           <section
             id="pipeline"
-            className="glass-surface border-white/20 bg-slate-950/60 p-6 sm:p-8"
+            className="glass-surface border-white/20 p-6 sm:p-8"
           >
             <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
               <div>
@@ -156,7 +156,7 @@ export function ProductsSection() {
               {pipelineItems.map((item) => (
                 <div
                   key={item.name}
-                  className="glass-surface group flex flex-col justify-between border-white/15 bg-slate-900/70 p-4"
+                  className="glass-surface group flex flex-col justify-between border-white/15 p-4"
                 >
                   <div className="mb-3 flex items-center justify-between gap-2">
                     <h4 className="text-sm font-semibold text-slate-50">

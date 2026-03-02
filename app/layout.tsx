@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-syn-gradient text-slate-50 antialiased">
+      <body className="bg-syn-gradient text-slate-50 antialiased scroll-smooth">
         <div className="relative min-h-screen overflow-hidden">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(37,99,235,0.35),transparent_55%),radial-gradient(circle_at_bottom,rgba(45,212,191,0.25),transparent_55%)] opacity-70" />
           <div className="relative z-10 flex min-h-screen flex-col">

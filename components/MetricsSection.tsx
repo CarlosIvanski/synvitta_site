@@ -39,7 +39,7 @@ function MetricCard({ label, suffix, target, decimals = 1 }: MetricProps) {
   const formatted = value.toFixed(decimals);
 
   return (
-    <div className="glass-surface flex flex-col justify-between border-white/15 bg-slate-950/70 p-5">
+    <div className="glass-surface flex flex-col justify-between border-white/15 p-5">
       <p className="text-xs font-medium uppercase tracking-[0.18em] text-slate-400">
         {label}
       </p>
@@ -56,10 +56,10 @@ export function MetricsSection() {
     <FadeInSection delay={0.1}>
       <section
         id="metrics"
-        className="section-max-width py-20 md:py-24"
+        className="section-max-width min-h-screen py-24"
         aria-labelledby="metrics-heading"
       >
-        <div className="glass-surface border-white/20 bg-slate-950/70 p-6 sm:p-8">
+        <div className="glass-surface border-white/20 p-6 sm:p-8">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <div className="pill mb-3">Diagnostic Performance</div>

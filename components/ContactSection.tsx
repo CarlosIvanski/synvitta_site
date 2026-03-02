@@ -22,7 +22,7 @@ export function ContactSection() {
     <FadeInSection delay={0.12}>
       <section
         id="contact"
-        className="section-max-width py-20 md:py-24"
+        className="section-max-width min-h-screen py-24"
         aria-labelledby="contact-heading"
       >
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] lg:items-start">
@@ -68,7 +68,7 @@ export function ContactSection() {
               <span>Connect via LinkedIn</span>
             </a>
           </div>
-          <div className="glass-surface border-white/20 bg-slate-950/80 p-6 sm:p-7">
+          <div className="glass-surface border-white/20 p-6 sm:p-7">
             <form className="space-y-4 text-sm" onSubmit={handleSubmit}>
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="space-y-1.5">

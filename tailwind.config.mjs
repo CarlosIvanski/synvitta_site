@@ -16,7 +16,12 @@ export default {
       },
       backgroundImage: {
         "syn-gradient":
-          "radial-gradient(circle at top left, rgba(24,169,153,0.18), transparent 55%), radial-gradient(circle at top right, rgba(16,70,168,0.32), transparent 55%), linear-gradient(to bottom, #020617, #020617)"
+          [
+            "radial-gradient(circle at top left, rgba(24,169,153,0.18), transparent 55%)",
+            "radial-gradient(circle at bottom right, rgba(37,99,235,0.35), transparent 55%)",
+            // começa no azul-escuro atual e vai clareando progressivamente para um azul mais suave (sem ficar acinzentado)
+            "linear-gradient(to bottom, #020617 0%, #071426 35%, #0f2740 70%, #164a7a 100%)"
+          ].join(", ")
       },
       boxShadow: {
         "glass-soft": "0 18px 45px rgba(15,23,42,0.45)"

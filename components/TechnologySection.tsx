@@ -36,7 +36,7 @@ const features = [
 export function TechnologySection() {
   return (
     <FadeInSection delay={0.05}>
-      <section id="technology" className="section-max-width py-20">
+      <section id="technology" className="section-max-width min-h-screen py-24">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_minmax(0,1.1fr)] lg:items-start">
           <div className="space-y-6">
             <div className="pill">Technology Platform</div>

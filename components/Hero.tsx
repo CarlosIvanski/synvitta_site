@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="section-max-width flex min-h-[80vh] flex-col items-center gap-12 py-16 md:min-h-[90vh] md:flex-row md:items-center"
+      className="section-max-width flex min-h-screen flex-col items-center gap-12 py-20 md:flex-row md:items-center"
     >
       <div className="relative z-10 flex-1 space-y-8">
         <div className="pill">
@@ -71,7 +71,7 @@ export function Hero() {
       </div>
       <div className="relative flex flex-1 items-center justify-center">
         <motion.div
-          className="glass-surface relative h-[320px] w-full max-w-md overflow-hidden border-white/25 bg-gradient-to-br from-synBlue/40 via-slate-900/60 to-synGreen/40"
+          className="glass-surface relative h-[320px] w-full max-w-md overflow-hidden border-white/25"
           initial={{ opacity: 0, scale: 0.92, y: 16 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.9, ease: "easeOut" }}

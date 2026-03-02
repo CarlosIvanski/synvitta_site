@@ -5,7 +5,7 @@ export function AboutSection() {
     <FadeInSection>
       <section
         id="about"
-        className="section-max-width grid gap-10 py-20 md:grid-cols-[1.2fr_minmax(0,1fr)] md:items-center"
+        className="section-max-width grid min-h-screen items-center gap-10 py-24 md:grid-cols-[1.2fr_minmax(0,1fr)]"
       >
         <div className="space-y-6">
           <div className="pill">About Synvitta Diagnostics</div>
@@ -44,7 +44,7 @@ export function AboutSection() {
           </div>
         </div>
         <div className="relative">
-          <div className="glass-surface relative overflow-hidden border-white/20 bg-gradient-to-br from-synBlue/40 via-slate-950/80 to-synGreen/40 p-6">
+          <div className="glass-surface relative overflow-hidden border-white/20 p-6">
             <div className="mb-6 flex items-center justify-between text-xs text-slate-200">
               <span className="rounded-full bg-slate-950/60 px-3 py-1 font-medium uppercase tracking-wide text-cyan-300">
                 Diagnostic Focus
