@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 const navItems = [
   { href: "#about", label: "About" },
@@ -15,16 +14,6 @@ export function Navbar() {
     <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/60 backdrop-blur-xl">
       <nav className="section-max-width flex h-16 items-center justify-between">
         <Link href="#hero" className="flex items-center gap-2">
-          <div className="relative h-8 w-24">
-            <Image
-              src="/synvitta_logo.jpg"
-              alt="Synvitta Diagnostics"
-              fill
-              sizes="96px"
-              className="object-contain"
-              priority
-            />
-          </div>
           <div className="flex flex-col leading-tight">
             <span className="text-sm font-semibold tracking-tight">
               Synvitta

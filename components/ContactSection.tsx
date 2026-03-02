@@ -57,7 +57,7 @@ export function ContactSection() {
               </ul>
             </div>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/rainara-almeida-a09579119/"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-sm text-slate-200 transition hover:text-white"
