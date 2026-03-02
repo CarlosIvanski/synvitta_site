@@ -24,7 +24,7 @@ export function ProductsSection() {
             <div className="pill">SynTREP™ · Rapid Syphilis ELISA</div>
             <h2 className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl">
               SynTREP™ – Rapid syphilis ELISA with{" "}
-              <span className="gradient-text">optimized workflow</span>.
+              <span className="text-sky-200">optimized workflow</span>.
             </h2>
             <p className="text-base text-slate-200 sm:text-lg">
               SynTREP™ is a high-performance ELISA assay developed for the
@@ -142,7 +142,7 @@ export function ProductsSection() {
                 <div className="pill mb-3">Pipeline Development</div>
                 <h3 className="text-2xl font-semibold tracking-tight text-slate-50">
                   Emerging diagnostic portfolio with{" "}
-                  <span className="gradient-text">scalable assay platforms</span>.
+                  <span className="text-sky-200">scalable assay platforms</span>.
                 </h3>
                 <p className="mt-3 max-w-2xl text-sm text-slate-200">
                   Synvitta is expanding its diagnostic portfolio through the

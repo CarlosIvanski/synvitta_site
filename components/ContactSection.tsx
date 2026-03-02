@@ -79,7 +79,7 @@ export function ContactSection() {
                     id="name"
                     name="name"
                     required
-                    className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/70 px-3 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-500 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
+                    className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/40 px-3 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-400 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
                     placeholder="Your name"
                   />
                 </div>
@@ -90,7 +90,7 @@ export function ContactSection() {
                   <input
                     id="company"
                     name="company"
-                    className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/70 px-3 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-500 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
+                    className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/40 px-3 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-400 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
                     placeholder="Organization or laboratory"
                   />
                 </div>
@@ -104,7 +104,7 @@ export function ContactSection() {
                   name="email"
                   type="email"
                   required
-                  className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/70 px-3 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-500 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
+                  className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/40 px-3 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-400 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
                   placeholder="you@organization.com"
                 />
               </div>
@@ -119,7 +119,7 @@ export function ContactSection() {
                   id="area"
                   name="area"
                   required
-                  className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/70 px-3 text-sm text-slate-50 outline-none ring-0 transition focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
+                  className="h-9 w-full rounded-lg border border-white/15 bg-slate-900/40 px-3 text-sm text-slate-50 outline-none ring-0 transition focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
                   defaultValue=""
                 >
                   <option value="" disabled>
@@ -143,7 +143,7 @@ export function ContactSection() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="w-full rounded-lg border border-white/15 bg-slate-900/70 px-3 py-2 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-500 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
+                  className="w-full rounded-lg border border-white/15 bg-slate-900/40 px-3 py-2 text-sm text-slate-50 outline-none ring-0 transition placeholder:text-slate-400 focus:border-synGreen/60 focus:ring-2 focus:ring-synGreen/40"
                   placeholder="Short description of your inquiry"
                 />
               </div>

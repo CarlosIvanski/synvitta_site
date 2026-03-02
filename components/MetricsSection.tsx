@@ -68,7 +68,7 @@ export function MetricsSection() {
                 className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl"
               >
                 Numbers that reflect{" "}
-                <span className="gradient-text">laboratory performance</span>.
+                <span className="text-sky-200">laboratory performance</span>.
               </h2>
               <p className="mt-3 max-w-xl text-sm text-slate-200">
                 Representative performance metrics of Synvitta&apos;s assay

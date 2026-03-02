@@ -42,7 +42,7 @@ export function TechnologySection() {
             <div className="pill">Technology Platform</div>
             <h2 className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl">
               Precision immunoassays built for{" "}
-              <span className="gradient-text">speed, specificity and scale</span>.
+              <span className="text-sky-200">speed, specificity and scale</span>.
             </h2>
             <p className="text-base text-slate-200 sm:text-lg">
               Synvitta develops precision immunoassays through proprietary

@@ -31,8 +31,8 @@ a {
 }
 
 .glass-surface {
-  /* Cards: azul mais claro com glow suave, em sintonia com o Contact */
-  @apply border border-white/15 backdrop-blur-xl shadow-glass-soft rounded-3xl bg-gradient-to-br from-[#0b2746]/90 via-[#1b5fa8]/90 to-[#2dd4bf]/55;
+  /* Cards: azul claro uniforme (sem verde), com glow suave para manter o look premium */
+  @apply border border-white/15 backdrop-blur-xl shadow-glass-soft rounded-3xl bg-gradient-to-br from-[#0b2746]/90 via-[#1b5fa8]/90 to-[#1d75d9]/90;
 }
 
 .section-max-width {
