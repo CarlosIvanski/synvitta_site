@@ -17,9 +17,9 @@ export function Navbar() {
           <Image
             src="/synvitta.png"
             alt="Synvitta Diagnostics"
-            width={160}
-            height={32}
-            className="h-8 w-auto"
+            width={190}
+            height={40}
+            className="h-10 w-auto"
             priority
           />
         </Link>
