@@ -33,7 +33,7 @@ export function ContactSection() {
               className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl"
             >
               Structured collaborations for{" "}
-              <span className="gradient-text">clinical diagnostics</span>.
+              <span className="text-sky-200">clinical diagnostics</span>.
             </h2>
             <p className="text-base text-slate-200 sm:text-lg">
               For distribution inquiries, laboratory partnerships, or
