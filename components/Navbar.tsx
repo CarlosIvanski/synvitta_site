@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { href: "#about", label: "About" },
@@ -10,17 +11,17 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-900/10 bg-white/95 backdrop-blur-xl">
+    <header className="sticky top-0 z-40 border-b border-slate-900/10 bg-white backdrop-blur-xl">
       <nav className="section-max-width flex h-16 items-center justify-between text-slate-900">
-        <Link href="#hero" className="flex items-center gap-2">
-          <div className="flex flex-col leading-tight">
-            <span className="text-sm font-semibold tracking-tight">
-              Synvitta
-            </span>
-            <span className="text-[11px] font-medium uppercase text-slate-500">
-              Diagnostics
-            </span>
-          </div>
+        <Link href="#hero" className="flex items-center gap-3">
+          <Image
+            src="/synvitta.png"
+            alt="Synvitta Diagnostics"
+            width={160}
+            height={32}
+            className="h-8 w-auto"
+            priority
+          />
         </Link>
         <div className="hidden items-center gap-6 text-sm text-slate-700 md:flex">
           {navItems.map((item) => (
