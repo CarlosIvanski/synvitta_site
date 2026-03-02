@@ -31,7 +31,7 @@ a {
 }
 
 .glass-surface {
-  @apply border border-white/15 backdrop-blur-xl shadow-glass-soft rounded-3xl bg-gradient-to-br from-slate-900/90 via-slate-900/80 to-synGreen/25;
+  @apply border border-white/15 backdrop-blur-xl shadow-glass-soft rounded-3xl bg-gradient-to-br from-[#061426]/95 via-[#0b2540]/95 to-[#16a6a0]/40;
 }
 
 .section-max-width {

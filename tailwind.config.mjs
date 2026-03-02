@@ -19,12 +19,13 @@ export default {
           [
             "radial-gradient(circle at top left, rgba(24,169,153,0.18), transparent 55%)",
             "radial-gradient(circle at bottom right, rgba(37,99,235,0.35), transparent 55%)",
-            // começa no azul-escuro atual e vai clareando progressivamente para um azul mais suave (sem ficar acinzentado)
-            "linear-gradient(to bottom, #020617 0%, #071426 35%, #0f2740 70%, #164a7a 100%)"
+            // começa no azul-escuro atual e vai clareando progressivamente para um azul mais suave
+            "linear-gradient(to bottom, #020617 0%, #071426 30%, #0f2740 60%, #155b95 100%)"
           ].join(", ")
       },
       boxShadow: {
-        "glass-soft": "0 18px 45px rgba(15,23,42,0.45)"
+        "glass-soft":
+          "0 18px 45px rgba(15,23,42,0.7), 0 0 38px rgba(56,189,248,0.22)"
       },
       borderRadius: {
         "3xl": "1.75rem"

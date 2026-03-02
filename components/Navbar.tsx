@@ -34,7 +34,7 @@ export function Navbar() {
           ))}
           <Link
             href="#contact"
-            className="rounded-full bg-gradient-to-r from-synBlue to-synGreen px-4 py-1.5 text-sm font-semibold text-slate-950 shadow-lg shadow-synBlue/30 transition hover:shadow-xl hover:shadow-synGreen/40"
+            className="rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-slate-900 shadow-lg shadow-cyan-500/30 transition hover:shadow-cyan-400/40"
           >
             Contact
           </Link>
