@@ -19,8 +19,8 @@ export default {
           [
             "radial-gradient(circle at top left, rgba(24,169,153,0.18), transparent 55%)",
             "radial-gradient(circle at bottom right, rgba(37,99,235,0.35), transparent 55%)",
-            // começa no azul-escuro atual e vai clareando progressivamente para um azul mais suave
-            "linear-gradient(to bottom, #020617 0%, #071426 30%, #0f2740 60%, #155b95 100%)"
+            // começa escuro apenas no topo (hero) e já entra em um azul mais claro nas seções seguintes, parecido com o Contact
+            "linear-gradient(to bottom, #020617 0%, #071426 12%, #0f2740 28%, #155b95 60%, #1b6fb0 100%)"
           ].join(", ")
       },
       boxShadow: {

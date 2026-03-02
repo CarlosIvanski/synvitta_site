@@ -10,31 +10,31 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/60 backdrop-blur-xl">
-      <nav className="section-max-width flex h-16 items-center justify-between">
+    <header className="sticky top-0 z-40 border-b border-slate-900/10 bg-white/95 backdrop-blur-xl">
+      <nav className="section-max-width flex h-16 items-center justify-between text-slate-900">
         <Link href="#hero" className="flex items-center gap-2">
           <div className="flex flex-col leading-tight">
             <span className="text-sm font-semibold tracking-tight">
               Synvitta
             </span>
-            <span className="text-[11px] font-medium uppercase text-slate-300">
+            <span className="text-[11px] font-medium uppercase text-slate-500">
               Diagnostics
             </span>
           </div>
         </Link>
-        <div className="hidden items-center gap-6 text-sm text-slate-200 md:flex">
+        <div className="hidden items-center gap-6 text-sm text-slate-700 md:flex">
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="transition-colors hover:text-white"
+              className="transition-colors hover:text-slate-900"
             >
               {item.label}
             </a>
           ))}
           <Link
             href="#contact"
-            className="rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-slate-900 shadow-lg shadow-cyan-500/30 transition hover:shadow-cyan-400/40"
+            className="rounded-full bg-slate-900 px-4 py-1.5 text-sm font-semibold text-white shadow-lg shadow-slate-500/30 transition hover:shadow-slate-500/50"
           >
             Contact
           </Link>
